@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+}
+body{
+    background: url('img for web/me\ g.jpg') no-repeat;
+    background-position-x: 750px;
+    background-position-y: 200px;
+    background-size: 500px;
+    background-color: #222831;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+header {
+    height: 1161;
+    
+}
+nav {
+    height: 60px;
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 255;
+    /*border: 1px solid black;*/
+    
+
+}
+nav ul li{
+    
+    margin-top: 10px;
+    margin-right: 60px;
+    font-size: 26px;
+    
+}
+.logo h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+.header-info1 {
+    margin: 100px;
+    width: 550px;
+    /*border: 1px solid red;*/
+}
+.aboutme h1 {
+    font-size: 60px;
+    color: #00ADB5;
+}
+.subaboutme p {
+    margin: 20px;
+    color :aliceblue
+    
+}
+.family h1 {
+    font-size: 60px;
+    color: #00ADB5;
+}
+.subfamily p {
+    margin: 20px;
+    color :aliceblue
+    
+}
+.address h1 {
+    font-size: 60px;
+    color: #00ADB5;
+}
+.subaddress p {
+    margin: 20px;
+    color :aliceblue
+    
+}
+.skill h1 {
+    font-size: 60px;
+    color: #00ADB5;
+}
